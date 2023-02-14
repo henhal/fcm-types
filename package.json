@@ -1,0 +1,40 @@
+{
+  "name": "fcm-types",
+  "version": "1.0.0",
+  "description": "Type definitions for FCM (Firebase Cloud Messaging)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "prepack": "yarn clean && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henhal/fcm-types.git"
+  },
+  "keywords": [
+    "FCM",
+    "Firebase",
+    "Push",
+    "Notification",
+    "TypeScript",
+    "types",
+    "SNS"
+  ],
+  "author": "Henrik Hall",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/henhal/fcm-types/issues"
+  },
+  "homepage": "https://github.com/henhal/fcm-types#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
